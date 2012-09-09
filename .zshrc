@@ -540,6 +540,12 @@ bindkey " "   magic-abbrev-expand-and-insert
 bindkey "."   magic-abbrev-expand-and-insert
 bindkey "^x " no-magic-abbrev-expand
 
+bindkey "^a" beginning-of-line
+bindkey "^e" end-of-line
+bindkey "^k" kill-line
+bindkey "^f" forward-char
+bindkey "^b" backward-char
+
 # Incremental completion on zsh
 # http://mimosa-pudica.net/src/incr-0.2.zsh
 # やっぱりauto_menu使いたいのでoff
