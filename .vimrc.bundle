@@ -154,6 +154,7 @@ call vundle#rc()
 
   " ソースコード上のメソッド宣言、変数宣言の一覧を表示
   Bundle 'taglist.vim'
+  let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
   " エラーがある場所をhilight
   Bundle 'errormarker.vim'
