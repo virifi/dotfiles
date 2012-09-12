@@ -43,11 +43,7 @@ call vundle#rc()
   NeoBundle 'Gundo'
 
   " surround.vim : テキストを括弧で囲む／削除する
-<<<<<<< HEAD
-  Bundle 'tpope/vim-surround'
-=======
-  NeoBundle 'tpope/surround.vim'
->>>>>>> 4a68544fb3cc25ece2525284df8d2480dde5e4e9
+  NeoBundle 'tpope/vim-surround'
 
   " smartchr.vim : ==などの前後を整形
   NeoBundle 'smartchr'
