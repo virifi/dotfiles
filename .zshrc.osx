@@ -146,3 +146,6 @@ source $HOME/.nvm/nvm.sh
 # Android SDK
 export ANDROID_SDK_ROOT=$HOME/app/android-sdk-macosx
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+# Homebrew Python
+export PATH=/usr/local/share/python:$PATH

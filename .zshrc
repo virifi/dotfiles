@@ -687,3 +687,16 @@ esac
 ## local固有設定
 #
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+PATH=$PATH:~/bin
+
+## for Android
+alias getpm='adb shell pm list packages -f'
+
+# Pythonz
+[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+# virtualenv
+export VIRTUALENV_USE_DISTRIBUTE=true
+# virtualenvwrapper
+WORKON_HOME=$HOME/.virtualenvs
+which virtualenvwrapper.sh >> /dev/null 2>&1 && source `which virtualenvwrapper.sh`
